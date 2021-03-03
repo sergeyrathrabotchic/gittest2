@@ -33,6 +33,7 @@
     $f_json = 'tem/scratch.json';
     $newperem= 10;
     $newperem= 9;
+$newperem= 6;
     $json = file_get_contents("$f_json");
     $ob = json_decode($json,true);
     $objs = $ob[product];
